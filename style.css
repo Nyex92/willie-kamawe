@@ -22,8 +22,17 @@ p{
  text-align: justify;  
 }
 
+p.image{
+ text-align: center;   
+}
+
+p.center{
+ text-align: center;
+ background-color: blanchedalmond; 
+}
+
 li{
-    font-family: Georgia, 'Times New Roman', Times, serif;      
+ font-family: Georgia, 'Times New Roman', Times, serif;      
 }
 
 a:link{
@@ -36,8 +45,6 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: none;
-    background:rgb(45, 206, 231);
+ text-decoration: none;
+ background:rgb(45, 206, 231);
   }
-
-a:active { text-decoration: none; }
