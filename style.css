@@ -4,17 +4,22 @@ html {
 
 h1 {
  color:rgb(12, 53, 106);
+ background-color: #FFC436;
  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  text-align: center;
 }
 
+img.about{
+ padding-left:4cm;
+}
+
 h3 {
- color:rgb(93, 90, 90);
+ color:#0174BE;
  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h4{
- color:rgb(215, 9, 9)   
+ color:#FFC436;   
 }
 
 p{
@@ -43,8 +48,3 @@ a:link{
 a:visited { 
  text-decoration:rgb(244, 80, 21); 
 }
-
-a:hover {
- text-decoration: none;
- background:rgb(45, 206, 231);
-  }
