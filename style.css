@@ -3,21 +3,27 @@ html {
 }
 
 #h1{
- border: 10px solid  #FFC436;
- padding:20px;
- background-color: #FFC436;
+ border: 10px solid  #e8dcc0;
+ padding:9px;
+ background-color: #e8dcc0;
  color:rgb(12, 53, 106);
- font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-family: 'Lora', serif;
+ font-size: 50px;
+ font-weight: normal;
+ font-style: normal;
  text-align: center;
 }
 
 h3 {
  color:#0174BE;
- font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-family:'Lora', serif;
+ text-align: center;
+ background-color: rgb(212, 173, 173); 
 }
 
 h4{
- color:#FFC436;   
+ color:#c18e18;
+ text-align: center;   
 }
 
 p{
@@ -26,7 +32,12 @@ p{
 }
 
 #about{
- text-align: center;   
+ text-align: center;
+}
+
+#divabout{
+ background-color: #dbd7d4;
+ border: 2px solid #ffc436;
 }
 
 #linkpix{
@@ -39,7 +50,7 @@ p{
 }
 
 li{
- font-family: Georgia, 'Times New Roman', Times, serif;      
+ font-family: Georgia, 'Times New Roman', Times, serif;   
 }
 
 a:link{
