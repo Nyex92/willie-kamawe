@@ -2,9 +2,11 @@ html {
  background-color: FFF0CE;
 }
 
-h1 {
- color:rgb(12, 53, 106);
+#h1{
+ border: 10px solid  #FFC436;
+ padding:20px;
  background-color: #FFC436;
+ color:rgb(12, 53, 106);
  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  text-align: center;
 }
@@ -23,13 +25,16 @@ p{
  text-align: justify;  
 }
 
-p.image{
+#about{
  text-align: center;   
 }
-
-p.center{
+#footer{
  text-align: center;
  background-color: blanchedalmond; 
+}
+
+#linkpix{
+ text-align: center;
 }
 
 li{
