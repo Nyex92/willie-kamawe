@@ -28,13 +28,14 @@ p{
 #about{
  text-align: center;   
 }
-#footer{
- text-align: center;
- background-color: blanchedalmond; 
-}
 
 #linkpix{
  text-align: center;
+}
+
+#footer{
+ text-align: center;
+ background-color: blanchedalmond; 
 }
 
 li{
