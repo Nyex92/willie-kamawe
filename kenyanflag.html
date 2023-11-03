@@ -9,22 +9,25 @@
     
 
 
-#title{
+.text>p{
+  margin:0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 3rem;
   text-transform:capitalize;
-  position:relative;
-  left: 17%;
+  padding-left:20%;
 }
 
-#comment{
-  position:relative;
-  left: 26%;
+.comment{
   font-size: 2rem;
-  text-transform:capitalize; 
+  text-transform:capitalize;
+  padding-left:28%; 
 }
 
-#white{
+#flag{
+  padding-left:15%;
+}
+
+.white{
   width: 950px;
   height: 500px;
   background-color: white;  
@@ -32,13 +35,13 @@
 
 }
 
-#black{
+.black{
  width: 950px;
  height: 150px;
  background-color: black;
 }
 
-#red{
+.red{
  width: 950px;
  height: 150px;
  background-color: rgb(187, 0, 0); 
@@ -46,7 +49,7 @@
  top:35%;
 }
 
-#green{
+.green{
  width: 950px;
  height: 150px;
  background-color: green; 
@@ -54,7 +57,7 @@
  top:70%
 }
 
-#shield{
+.shield{
  border-radius: 70%;
  height: 70%;
  width: 20%;
@@ -69,13 +72,19 @@
 
 </head>
 <body>
-  <p id="title">The Kenyan Flag in CSS</p>
-  <p id="comment">(Under Construction)</p>
-  <div id="white"> 
-    <div id="black"></div>
-    <div id="red"></div>
-    <div id="green"></div>
-    <div id="shield"></div>
+  <div id="flag">
+    <div class="text">
+      <p>The Kenyan Flag in CSS</p>
+    </div>
+    <div class="comment">
+      <p>(Under Construction)</p>
+    </div>
+    <div class="white"> 
+      <div class="black"></div>
+      <div class="red"></div>
+      <div class="green"></div>
+      <div class="shield"></div>
+    </div>
   </div>
   <hr />
   <p id="back"><a href="index.html">Back to Home Page</a></p>
