@@ -31,17 +31,38 @@ p{
  text-align: justify;  
 }
 
-#about{
- text-align: center;
+.about{
+ position:relative;
 }
 
-#divabout{
+.photo{
  background-color: #dbd7d4;
- text-align: center;
+ width: 500px; 
+ height: 300px;
+ padding-left: 10%;
 }
 
-#linkpix{
- text-align: center;
+.welcome{
+ text-align:center;
+ background-color: #ebe8f0;
+ width:40%;
+ height:100px;
+ position: absolute;
+ top:15%;
+ left: 55%;
+ padding-top: 20px;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.list{
+ position: absolute;
+ background-color: #ebe8f0;
+ width:25%;
+ height:80px;
+ left: 66%;
+ bottom: 5%;
+ padding-left: 45px;
 }
 
 #footer{
