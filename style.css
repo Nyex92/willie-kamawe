@@ -37,7 +37,6 @@ p{
 
 #divabout{
  background-color: #dbd7d4;
- border: 2px solid #ffc436;
  text-align: center;
 }
 
@@ -59,13 +58,28 @@ li{
  font-family: Georgia, 'Times New Roman', Times, serif;   
 }
 
-a:link{
- color: rgb(16, 51, 223);
- text-decoration:none;
+a:link {
+text-decoration: none;    
+color: rgb(14, 5, 248);
 }
 
-a:visited { 
- text-decoration:rgb(244, 80, 21); 
+a:visited {
+color:#5f0be4; 
+}
+
+a:focus {
+text-decoration: none;
+background: #bae498;
+}
+
+a:hover {
+text-decoration: none;
+background: #a5a5a7;
+}
+
+a:active {
+background: rgba(208, 53, 53, 0.756);
+color: rgb(198, 235, 124);
 }
 
 
