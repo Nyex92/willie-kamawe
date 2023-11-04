@@ -83,10 +83,12 @@ p{
 }
 
 .summary{
+background-color: #ebe8f0;
 width:40%;
-height:60%;
+height:40%;
 left: 55%;
-bottom: 25%;
+padding-bottom: 5%;
+bottom: 30%;
 overflow:hidden;
 min-height: fit-content;
 position: absolute;
