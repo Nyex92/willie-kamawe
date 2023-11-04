@@ -4,22 +4,34 @@ html {
 
 #h1{
  border: 0px solid  #e8dcc0;
- padding:20px;
+ width: 40%;
  margin-top: 0px;
  background-color: #e8dcc0;
- color:rgb(12, 53, 106);
+ color:rgb(72, 70, 70);
  font-family: 'Lora', serif;
  font-size: 50px;
  font-weight: normal;
  font-style: normal;
  text-align: center;
+ position: relative;
 }
 
-h3 {
+.box{
+background-color: rgb(72, 70, 70);
+width: 60%;
+height:64px;
+margin-top: 0px;
+position: absolute;
+left:40%;
+bottom:86.9%;
+
+}
+
+.h3 {
  color:#0174BE;
  font-family:'Lora', serif;
  text-align: center;
- background-color: rgb(212, 173, 173); 
+ background-color: rgb(203, 162, 120); 
 }
 
 h4{
@@ -46,28 +58,57 @@ p{
 .welcome{
  text-align:center;
  background-color: #ebe8f0;
- width:40%;
- height:100px;
+ width:35%;
+ height:110px;
  position: absolute;
- top:15%;
+ top:0%;
  left: 55%;
  padding-top: 20px;
- padding-left: 20px;
- padding-right: 20px;
+ padding-left: 70px;
+ padding-right: 80px;
  min-height: fit-content;
  overflow:hidden;
 }
 
 .list{
- background-color: #ebe8f0;
- width:23%;
+ background-color: rgb(203, 162, 120);
+ width:35%;
  height:80px;
- left: 66%;
- bottom: 5%;
- padding-left: 60px;
+ left: 58%;
+ bottom: 25%;
+ padding-left: 110px;
  overflow:hidden;
  min-height: fit-content;
  position: absolute;
+}
+
+.summary{
+width:40%;
+height:60%;
+left: 55%;
+bottom: 25%;
+overflow:hidden;
+min-height: fit-content;
+position: absolute;
+}
+
+.summary>.title{
+font-family: 'Lora', serif;
+font-size: 2rem;
+text-align: right;
+color:#e67016;  
+}
+
+.connect{
+font-family: 'Lora', serif;
+font-size: 2rem;
+text-align: center;
+color:#e67016;
+}
+
+.icons{
+height:50%; 
+padding-left: 34%;
 }
 
 #footer{
