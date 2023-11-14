@@ -4,9 +4,9 @@ html {
 
 .index.grid-container{
  display:grid;
- grid-template-columns: 2;
- grid-template-rows: 100px 300px 90px;
- gap: 80px;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 90px 300px 90px;
+ gap: 50px;
 }
 
 .index{
@@ -25,7 +25,7 @@ html {
 }
 
 .photo{
- background-color: #ebe8f0; 
+ background-color: #dbd7d4; 
 }
 
 h1{
