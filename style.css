@@ -1,31 +1,60 @@
 html {
- background-color: FFF0CE;
+ background-color: rgb(235, 238, 231);
 }
 
-#h1{
- border: 0px solid  #e8dcc0;
- width: 40%;
- margin-top: 0px;
+.index.grid-container{
+ display:grid;
+ grid-template-columns: 2;
+ grid-template-rows: 100px 300px 90px;
+ gap: 80px;
+}
+
+.index{
+ font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+.title{
+ grid-column: span 2;
+}
+
+.title>p{
+ font-family: 'Lora', serif;
+ font-size: 60px;
+ text-align:center;   
+}
+
+.photo{
+ background-color: #ebe8f0; 
+}
+
+h1{
  background-color: #e8dcc0;
  color:rgb(72, 70, 70);
  font-family: 'Lora', serif;
- font-size: 50px;
+ font-size: 80px;
  font-weight: normal;
  font-style: normal;
  text-align: center;
- position: relative;
 }
 
-.box{
-background-color: rgb(72, 70, 70);
-width: 60%;
-height:64px;
-margin-top: 0px;
-position: absolute;
-left:40%;
-bottom:86.9%;
-
+.welcome{
+ text-align:center;
+ font-size: 25px;
+ align-self: center;
 }
+
+ .welcome>p{
+ font-family: 'Lora', serif;
+ } 
+
+.welcome>.list{
+ font-size: 20px; 
+ text-align: center;  
+}
+
+.list>p{
+ font-family: 'Lora', serif;   
+   }   
 
 .h3 {
  color:#0174BE;
@@ -46,40 +75,6 @@ p{
 
 .about{
  position:relative;
-}
-
-.photo{
- background-color: #dbd7d4;
- width: 500px; 
- height: 300px;
- padding-left: 10%;
-}
-
-.welcome{
- text-align:center;
- background-color: #ebe8f0;
- width:35%;
- height:110px;
- position: absolute;
- top:0%;
- left: 55%;
- padding-top: 20px;
- padding-left: 70px;
- padding-right: 80px;
- min-height: fit-content;
- overflow:hidden;
-}
-
-.list{
- background-color: rgb(203, 162, 120);
- width:35%;
- height:80px;
- left: 58%;
- bottom: 25%;
- padding-left: 110px;
- overflow:hidden;
- min-height: fit-content;
- position: absolute;
 }
 
 .summary{
@@ -152,5 +147,3 @@ a:active {
 background: rgba(208, 53, 53, 0.756);
 color: rgb(198, 235, 124);
 }
-
-
