@@ -1,62 +1,60 @@
 html {
- background-color: rgb(235, 238, 231);
+ background-color: rgb(215, 216, 213);
 }
 
-.index.grid-container{
- display:grid;
- grid-template-columns: 1fr 1fr;
- grid-template-rows: 90px 300px 90px;
- gap: 50px;
-}
-
-.index{
- font-family: Georgia, 'Times New Roman', Times, serif;    
+div{
+ display:inline-block;
 }
 
 .title{
- grid-column: span 3;
-}
-
-.title>p{
- font-family:Arial, Helvetica, sans-serif;
+ font-family: 'Lora', serif;
  font-size: 60px; 
  font-weight:bold;
  text-align: center;
 }
 
-.photo{
- background-color: #dbd7d4; 
+.welcome{
+ float:left;
+ width:40%;
+ border:solid;
+ border-color: #e67016;
+}
+
+.wtext{
+  float:right;
+  width:40%;
+  margin-right:30px;
+  margin-top:40px;
+}
+
+.intro{
+ float:right;
+ width:40%;
+ border:solid;
+ border-color:#0174BE;
+}
+
+.itext{
+  float:right;
+  width:40%;
+  margin-right:30px;
+  margin-top:40px;
+}
+
+footer>p{
+  clear:both;
+  text-align: center;
 }
 
 h1{
- background-color: #e8dcc0;
- color:rgb(72, 70, 70);
- font-family: 'Lora', serif;
- font-size: 80px;
- font-weight: normal;
- font-style: normal;
- text-align: center;
+background-color: #e8dcc0;
+color:rgb(72, 70, 70);
+font-family: 'Lora', serif;
+font-size: 80px;
+font-weight: normal;
+font-style: normal;
+text-align: center;
 }
-
-.welcome{
- text-align:center;
- font-size: 25px;
- background-color: #e8cd8f;
- align-self: center;
-}
-
- .welcome>p{
- font-family: 'Lora', serif;
- } 
-
-.welcome>.list{
- font-size: 20px; 
- text-align: center;  
-}
-
-.list>p{
- font-family: 'Lora', serif;   
-   }   
 
 .h3 {
  color:#0174BE;
@@ -112,14 +110,9 @@ height:50%;
 padding-left: 34%;
 }
 
-#footer{
- text-align: center;
- background-color: blanchedalmond; 
-}
-
 #back{
  text-align: center;
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
 }
 
 li{
@@ -142,7 +135,6 @@ background: #bae498;
 
 a:hover {
 text-decoration: none;
-background: #a5a5a7;
 }
 
 a:active {
