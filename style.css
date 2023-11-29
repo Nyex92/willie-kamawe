@@ -27,6 +27,11 @@ div{
   margin-top:40px;
 }
 
+.wtext>.text{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: right;
+}
+
 .intro{
  float:right;
  width:40%;
@@ -39,10 +44,17 @@ div{
   width:40%;
   margin-right:30px;
   margin-top:40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
 }
 
 .image{
   height:250px;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
 }
 
 footer>p{
@@ -120,34 +132,27 @@ h4{
  text-align: center;   
 }
 
-p{
- font-family: Georgia, 'Times New Roman', Times, serif;
- text-align: justify;  
-}
-
-.about{
- position:relative;
-}
-
 .summary{
-background-color: #ebe8f0;
-width:40%;
-height:40%;
-left: 55%;
-padding-bottom: 6%;
-padding-left:2.5%;
-padding-right:2.5%;
-bottom: 28%;
-overflow:hidden;
-min-height: fit-content;
-position: absolute;
+border:solid;
+border-color:#e67016;
+width:100%;
 }
 
-.summary>.title{
-font-family: 'Lora', serif;
-font-size: 2rem;
-text-align: right;
-color:#e67016;  
+.sumtitle{
+ font-size:2rem;
+ float:right;
+ width:50%;
+ margin-right:5%;
+}
+
+.sumtext{
+ float: right;
+ width:50%;
+ margin-right:5%;
+}
+
+.sumcontainer{
+  width:70%;
 }
 
 .connect{
