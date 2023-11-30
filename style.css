@@ -155,6 +155,25 @@ width:100%;
   width:70%;
 }
 
+.detail-title{
+  font-size:2rem;
+  text-align: center;
+ }
+
+.twelve{
+  float:left;
+  width:45%;
+  border:solid;
+  border-color: #e6ba54;
+}
+
+.eight{
+  float:right;
+  width:45%;
+  border:solid;
+  border-color: #e6ba54;
+}
+
 .connect{
 font-family: 'Lora', serif;
 font-size: 2rem;
