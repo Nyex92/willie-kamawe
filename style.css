@@ -16,7 +16,7 @@ div{
 
 .welcome{
  float:left;
- width:40%;
+ width:45%;
  border:solid;
  border-color: #e67016;
 }
@@ -35,7 +35,7 @@ div{
 
 .intro{
  float:right;
- width:40%;
+ width:45%;
  border:solid;
  border-color:#0174BE;
 }
